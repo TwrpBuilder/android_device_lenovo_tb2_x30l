@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/device_lenovo_tb2_x30l
     branch: mm6.0
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
